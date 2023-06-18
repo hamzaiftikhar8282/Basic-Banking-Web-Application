@@ -1,0 +1,123 @@
+.imagee{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+  /* Navigation bar styles */
+  nav {
+    background-color:indianred;
+  }
+  
+  .container {
+    display: flex;
+    
+    align-items: center;
+   
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+
+  
+  .menu li {
+    display: inline-block;
+    margin-left: 15px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .menu li a:hover {
+    color:yellow;   
+  }
+
+.newim3{
+    margin-top: 5%;
+    margin-left: 9%;
+    width: 150px;
+    height: 150px;
+}
+.cd{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.marqe{
+
+
+color:white;
+font-size: 20px;
+background-color:tomato;
+height: 30px;
+animation: marquee 220s linear infinite;
+
+}
+.marqe:hover{
+    animation-play-state: paused;
+}
+
+.card{
+    
+   
+    position: absolute;
+  top: 48%;
+  left: 6%;
+  width: 200px;
+ background-color: white;
+  
+
+  border: 1px solid;
+  overflow: hidden;
+ 
+}
+.card1{
+    position: absolute;
+    top: 48%;
+    left: 29%;
+    width: 200px;
+   background-color: white;
+   height: 307px;
+  
+    border: 1px solid;
+    overflow: hidden;
+   
+}
+.card2{
+    position: absolute;
+    top: 48%;
+    left: 54%;
+    width: 200px;
+   background-color: white;
+    
+   height: 307px;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+.card3{
+    position: absolute;
+    top: 48%;
+    left: 78%;
+    width: 200px;
+    height: 307px;
+   background-color: white;
+    
+  
+    border: 1px solid;
+    overflow: hidden;
+}
